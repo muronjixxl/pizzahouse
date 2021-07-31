@@ -30,7 +30,7 @@ No known bugs
 If you have any question or contributions,<a href="mailto: faith.muronji@student.moringaschool.com">email us today!</a>
 
 ## License
-MIT License: [click on me](https://github.com/muronjixxl/week-3-IP/blob/master/licence)
+MIT License: [click on me](https://github.com/muronjixxl/pizzahouse/blob/main/license)
 
 Copyright (c) 2021
 
