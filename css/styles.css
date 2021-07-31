@@ -1,0 +1,19 @@
+header{
+    background-image: url('../images/bgpizza.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    padding-top:17%; 
+    font-family: 'Gabriela', serif;
+}
+
+header h1{
+    margin: 10%;
+    color:white;
+    font-size: xx-large;
+    }
+    .landing{
+        padding: 6px;
+    }
