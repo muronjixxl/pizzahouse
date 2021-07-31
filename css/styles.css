@@ -39,3 +39,5 @@ header h1{
     text-align: justify;
     overflow-x: hidden;
   }
+  * {box-sizing:border-box}
+
