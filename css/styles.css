@@ -1,5 +1,5 @@
 header{
-    background-image: url('../images/bgpizza.jpg');
+    background-image: url('../images/shaian-ramesht-exSEmuA7R7k-unsplash.jpg');
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -11,9 +11,12 @@ header{
 
 header h1{
     margin: 10%;
-    color:white;
+    color:black;
     font-size: xx-large;
-    }
-    .landing{
+       }
+    .landing h1, p{
         padding: 6px;
+        color: black;
+        font-weight: 400;
+        font-size: xx-large;
     }
