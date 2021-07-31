@@ -12,11 +12,30 @@ header{
 header h1{
     margin: 10%;
     color:black;
-    font-size: xx-large;
        }
-    .landing h1, p{
+    .landing{
         padding: 6px;
         color: black;
         font-weight: 400;
-        font-size: xx-large;
+        font-size:xx-large;
     }
+   
+
+#about-us{
+    min-height: 70vh;
+    align-items: center;
+  
+  }
+ 
+
+    
+  }
+  #about-us .float-right{
+    padding: 65px 50px 85px;
+    width: 100%;
+    background-color: #ffa500;
+    float:right;
+    text-align: justify;
+    overflow-x: hidden;
+    ;
+  }
