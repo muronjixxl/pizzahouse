@@ -41,3 +41,9 @@ header h1{
   }
   * {box-sizing:border-box}
 
+#contact{
+    background-color: #ffa500;
+}
+footer h2{
+    color: black;
+}
