@@ -1,18 +1,22 @@
 function getSize(){
-    var orderedSize =$("#size").value ;
+    var orderedSize =$("#size").val() ;
+    //console.log(orderedSize);
     return parseInt(orderedSize);
 }
 function getCrust() {
-    var orderedCrust = $("#crust").value;
+    var orderedCrust = $("#crust").val();
+    //console.log(orderedCrust);
     return parseInt(orderedCrust);
 }
 function getToppings() {
-    var orderedToppings = $("#toppings").value;
+    var orderedToppings = $("#toppings").val();
+    console.log(orderedToppings);
     return parseInt(orderedToppings);
 }
 function getAmount() {
-    var selectedQuantity = $("#amount").value;
-    return parseInt(selectedQuantity);
+    var orderedAmount = $("#amount").val();
+    //console.log(orderedAmount);
+    return parseInt(orderedAmount);
 }
 
 function totalPrice(){
@@ -20,15 +24,12 @@ function totalPrice(){
     alert("The total payment is Ksh." + (Total));
     alert("Your order will be ready in ten minutes!")
 } 
+function delivery(){
+    var Total= (getSize() + getToppings()  + getCrust()) * getAmount() ;
+    alert("The total payment is Ksh." + (Total));
+    prompt("Enter your location")
+    alert("If not delivered within 20 minutes contact us")
+}
 
-/*let size=parseInt(size);
-let crust=parseInt(crust);
-let toppings=parseInt(toppings);
-let amount=parseInt(amount);
 
-function totalPrice(){
-   let totalPrice= (size+crust+toppings)*amount
-   alert("Your total payment is"+ (totalPrice))
-   alert("Your order will be ready in ten minutes!")
-}*/
 
