@@ -19,6 +19,9 @@ header h1{
         font-weight: 400;
         font-size:xx-large;
     }
+    body{
+        font-family: 'Gabriela', serif;
+    }
    
 
 #about-us{
