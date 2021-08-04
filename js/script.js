@@ -1,6 +1,11 @@
+function getType(){
+    var orderedType =$("#type").val() ;
+    console.log(orderedType)
+    return orderedType;
+}
 function getSize(){
     var orderedSize =$("#size").val() ;
-    //console.log(orderedSize);
+    console.log(orderedSize);
     return parseInt(orderedSize);
 }
 function getCrust() {
@@ -19,17 +24,29 @@ function getAmount() {
     return parseInt(orderedAmount);
 }
 
-function totalPrice(){
+function pickup(){
     var Total= (getSize() + getToppings()  + getCrust()) * getAmount() ;
+    alert("You have ordered " + getType(""))
     alert("The total payment is Ksh." + (Total));
     alert("Your order will be ready in ten minutes!")
 } 
 function delivery(){
     var Total= (getSize() + getToppings()  + getCrust()) * getAmount() ;
+    alert("You have ordered " + getType(""))
     alert("The total payment is Ksh." + (Total));
-    prompt("Enter your location")
-    alert("If not delivered within 20 minutes contact us")
+   let location = prompt("Enter your location")
+    if (location !==""){
+    alert("Will be delivered in 20 minutes at " + location)
+    }
 }
+
+function checkout(){
+    var Total= (getSize() + getToppings()  + getCrust()) * getAmount() ;
+    document.getElementById("checkout").innerHTML = "Your total price for "+getAmount("") + getType("")+ " crust: " + getCrust("") +" toppings: "+ getToppings("") + " size: " +getSize("") +" is Ksh. " + Total;
+}
+
+
+
 
 
 
